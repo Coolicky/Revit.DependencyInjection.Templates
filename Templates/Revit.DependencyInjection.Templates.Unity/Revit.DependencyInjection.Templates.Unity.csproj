@@ -9,8 +9,7 @@
 
     <ItemGroup>
       <PackageReference Include="Prism.Core" Version="8.1.97" />
-      <PackageReference Include="Revit.DependencyInjection.Unity" Version="0.6.0" />
-      <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2022.1.0" />
+      <PackageReference Include="Revit.DependencyInjection.Unity" Version="0.6.2" />
     </ItemGroup>
 
     <ItemGroup>
