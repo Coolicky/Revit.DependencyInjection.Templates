@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Coolicky",
+  "shortName": "revitDiUnity",
+  "identity": "Revit.DependencyInjection.Unity.TemplateProject",
+  "defaultName": "RevitSample",
+  "name": "Revit Dependency Injection Unity",
+  "sourceName": "Revit.DependencyInjection.Templates.Unity",
+  "description": "Revit Sample Template for use with Dependency Injection with Unity Container",
+  "classifications": [ "Revit", "Class Library", "C#7.3" ],
+  "tags": {
+    "type": "project",
+    "language": "C#",
+    "platform": ".NET"
+  },
+  "preferNameDirectory": true,
+  "placeholderFilename": "keep.folder",
+  "guids": [
+    "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA",
+    "BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB"
+  ]
+}

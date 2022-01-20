@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <Configurations>Debug;Release</Configurations>
+        <UseWpf>true</UseWpf>
+        <Platforms>x64</Platforms>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Prism.Core" Version="8.1.97" />
+      <PackageReference Include="Revit.DependencyInjection.Unity" Version="0.5.2" />
+      <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2022.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Include="Commands\SampleWindows\Views\SampleWindow.xaml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include=".template.config\template.json" />
+    </ItemGroup>
+
+</Project>

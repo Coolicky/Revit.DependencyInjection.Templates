@@ -1,0 +1,17 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+#IDE folders
+*.idea/
+*.vs/
+
+#Project-specific folders
+*obj/
+*bin/
+*output/
+
+#User-specific files
+*.user
