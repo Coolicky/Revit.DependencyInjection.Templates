@@ -185,8 +185,8 @@ private ObservableCollection<Element> _elements;
 
 public ObservableCollection<Element> Elements
 {
-get => _elements;
-set => SetProperty(ref _elements, value);
+	get => _elements;
+	set => SetProperty(ref _elements, value);
 }
 
 // Remember to Instantiate the collection!
@@ -201,9 +201,8 @@ private Element _selectedElement;
 
 public Element SelectedElement
 {
-get => _selectedElement;
-set => SetProperty(ref _selectedElement, value);
-}
+	get => _selectedElement;
+	set => SetProperty(ref _selectedElement, value);
 }
 ```
 You can bind them as such
@@ -225,7 +224,7 @@ Delegate Commands are [Prism Standard](https://prismlibrary.com/docs/commanding.
 public DelegateCommand DoSomethingCommand { get; set; }
 private async void DoSomething()
 {
-// Your Logic
+	// Your Logic
 }
 
 public SampleWindowViewModel(ISampleService sampleService)
