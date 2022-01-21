@@ -7,7 +7,7 @@
   "name": "Revit Dependency Injection Unity",
   "sourceName": "Revit.DependencyInjection.Templates.Unity",
   "description": "Revit Sample Template for use with Dependency Injection with Unity Container",
-  "classifications": [ "Revit", "Class Library", "C#7.3" ],
+  "classifications": [ "Revit", "Class Library", ".NET4.8" ],
   "tags": {
     "type": "project",
     "language": "C#",
