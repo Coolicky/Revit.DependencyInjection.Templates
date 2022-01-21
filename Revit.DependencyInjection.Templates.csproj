@@ -12,7 +12,7 @@
     <PropertyGroup>
         <PackageType>Template</PackageType>
         <PackageId>Revit.DependencyInjection.Templates</PackageId>
-        <PackageVersion>0.6.0</PackageVersion>
+        <PackageVersion>0.6.1</PackageVersion>
         <Authors>Coolicky</Authors>
         <Description>Templates for Revit with Unity Dependency Injection base on excellent Onbox Framework</Description>
         <PackageTags>revit;templates;Unity;DI</PackageTags>
@@ -24,7 +24,7 @@
     <ItemGroup>
         <None Include=".nuget\Revit.png" PackagePath="images\" Pack="true" />
         <None Include="License.md" PackagePath="" Pack="true" />
-        <Content Include="Templates\**\*" Exclude="**\bin\**\*;**\obj\**\*;**\packages\**" />
+        <Content Include="Templates\**\*" Exclude="**\bin\**\*;**\obj\**\*;**\packages\**;**\.template.config\**" />
         <Compile Remove="**\*" />
     </ItemGroup>
 
