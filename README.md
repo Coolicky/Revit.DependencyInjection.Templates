@@ -22,7 +22,7 @@ The template contains sample `IExternalApplication` Class wrapped in `RevitApp`
 ### UI Creation
 The following method is used to register Tabs, Panels & Buttons
 ```c#
-// This attribute is crucial and should have a unique GUID (created by tamplate by default)
+// This attribute is crucial and should have a unique GUID (created by template by default)
 [ContainerProvider("{{GUID}}")]
 public class App : RevitApp
 {
@@ -41,11 +41,11 @@ public class App : RevitApp
 ```
 samplePanel.AddPushButton<ButtonClass, ButtonAvailability>($"Button{br}Name", "image");
 ```
-*ButtonClass is a class implementing RevitAppCommand\<App\> where\<App\> is a name of the application class
+`ButtonClass` is a class implementing `RevitAppCommand<App>` where `<App>` is a name of the application class
 		
-*ButtonAvailability is class implementing IExternalCommandAvailability
+`ButtonAvailability` is class implementing `IExternalCommandAvailability`
 
-*Image is a name of image file used for button icon. You should create two files for each button. One 32x32px & one 16x16px. Place them somewhere in Resources folder. Remember to follow the convention for naming the files "Image32" & "Image16".
+`Image` is a name of image file used for button icon. You should create two files for each button. One 32x32px & one 16x16px. Place them somewhere in Resources folder. Remember to follow the convention for naming the files "Image32" & "Image16".
 
 ### Container Registration
 ```c#
