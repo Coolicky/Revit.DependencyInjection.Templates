@@ -68,7 +68,7 @@ public class App : RevitApp
 
 ### RevitAsync
 Registering RevitAsync `container.AddRevitAsync(GetAsyncSettings);` you will register an instance of `IRevitEventHandler` that will allow you to execute methods within Revit Context. 
-It's been created by the guys at the excellent [Onbox Framework](https://github.com/engthiago/Onboxframework)
+As the rest of the functions here it's been created by the guys at the excellent [Onbox Framework](https://github.com/engthiago/Onboxframework)
 
 You can inject it into any registered class by 
 
