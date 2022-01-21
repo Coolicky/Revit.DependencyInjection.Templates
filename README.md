@@ -213,6 +213,7 @@ You can bind them as such
 		<DataTemplate>
 			// You can access properties of a bound class in following way
 			<TextBlock Text="{Binding Name, Mode=OneWay}"/>
+			// When Binding to Revit Api Classes remember set One Way Binding as they cannot be set outside of Revit Context
 		</DataTemplate>
 	</ListView.ItemTemplate>
 </ListView>
