@@ -241,7 +241,3 @@ Binding Commands
 ```
 
 For more advanced documentation refer to [https://prismlibrary.com/docs/](https://prismlibrary.com/docs/) or [Brian Lagunas Pluralsight course](https://www.pluralsight.com/courses/prism-wpf-introduction) that goes way beyond the scope here.
-
-### TODO: 
-Create a way to implement Prism Application within this template and use Revit Dockpanel as Prism Shell. 
-If someone knows how to approach it please drop a comment.
